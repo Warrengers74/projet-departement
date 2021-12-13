@@ -1,0 +1,68 @@
+@media all and (max-width: 991px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menuheader .main_pages {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    height: 220px;
+  }
+
+  .menuheader .main_pages a {
+    width: 100%;
+    border: none;
+  }
+
+  label {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: bold;
+    color: #6d071a;
+    cursor: pointer;
+  }
+
+  #toggle:checked + .main_pages {
+    display: flex;
+    position: relative;
+  }
+
+  .texte {
+    font-size: 0.8rem;
+    transform: translate(-50%, -10%);
+  }
+
+  .marche {
+    display: block;
+    margin-right: 40px;
+  }
+
+  .element {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  article {
+    display: block;
+  }
+
+  article a {
+    width: 100%;
+  }
+
+  .footerpack {
+    display: block;
+  }
+
+  .footerpack1,
+  .footerpack2,
+  .footerpack3 {
+    width: 90%;
+    text-align: center;
+  }
+}
